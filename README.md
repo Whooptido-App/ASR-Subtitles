@@ -47,7 +47,7 @@ pkg native-host.js -t node20-macos-arm64
 
 ## Contributions
 
-This repository is not a public contribution surface. Issues, pull requests, discussions, wiki, projects, releases, and Actions are disabled or restricted. Customer support and beta app bugs belong in the private Whooptido app/reporting flow.
+This repository is not a public contribution surface. Issues, pull requests, discussions, wiki, projects, releases, and Actions are disabled or restricted. Customer support and app issues belong in the private Whooptido app/reporting flow.
 
 Security vulnerabilities must be reported privately. See [SECURITY.md](SECURITY.md).
 

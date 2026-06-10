@@ -41,7 +41,7 @@ const {
 const WHOOPTIDO_DIR = path.join(os.homedir(), '.whooptido');
 const MODELS_DIR = path.join(WHOOPTIDO_DIR, 'models');
 const MODEL_PACKAGE_MANIFEST = 'whooptido-model.json';
-const HOST_VERSION = '1.0.0-beta.24';
+const HOST_VERSION = '1.0.0';
 const WHOOPTIDO_DOWNLOAD_USER_AGENT = `Whooptido-ASR-Subtitles/${HOST_VERSION} (+https://whooptido.app)`;
 const MODEL_QUALITY_RANK = Object.freeze({
   'parakeet-tdt-0.6b-v3-macos-arm64-metal': 1000,

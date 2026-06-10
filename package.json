@@ -1,7 +1,7 @@
 {
   "name": "whooptido-asr-subtitles",
-  "version": "1.0.0-beta.24",
-  "description": "Whooptido ASR Companion App — local speech recognition for word-for-word subtitles",
+  "version": "1.0.0",
+  "description": "Whooptido ASR Companion App - local speech recognition for word-for-word subtitles",
   "main": "native-host.js",
   "scripts": {
     "start": "node native-host.js",

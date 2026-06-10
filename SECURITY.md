@@ -17,7 +17,7 @@ Do not include:
 
 ## Public Issues
 
-Customer support and beta app bugs belong in the private Whooptido app/reporting flow.
+Customer support and app issues belong in the private Whooptido app/reporting flow.
 
 ## Supported Scope
 
