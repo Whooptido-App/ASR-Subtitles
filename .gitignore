@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-test/
+build/
+Output/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# Secrets and certificates
+secrets/
+*.p12
+*.pfx
+*.cer
+*.key
+*.pem
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test
+coverage/

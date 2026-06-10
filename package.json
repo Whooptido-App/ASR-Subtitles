@@ -1,0 +1,35 @@
+{
+  "name": "whooptido-asr-subtitles",
+  "version": "1.0.0-beta.24",
+  "description": "Whooptido ASR Companion App — local speech recognition for word-for-word subtitles",
+  "main": "native-host.js",
+  "scripts": {
+    "start": "node native-host.js",
+    "build": "pkg native-host.js --targets node20-macos-arm64,node20-win-x64,node20-linux-x64 --no-bytecode --public --public-packages \"*\" --output dist/whooptido-asr-subtitles",
+    "build:macos-arm": "pkg native-host.js --target node20-macos-arm64 --no-bytecode --public --public-packages \"*\" --output dist/whooptido-asr-subtitles-macos-arm",
+    "build:windows": "pkg native-host.js --target node20-win-x64 --no-bytecode --public --public-packages \"*\" --output dist/whooptido-asr-subtitles-windows-x64",
+    "build:linux": "pkg native-host.js --target node20-linux-x64 --no-bytecode --public --public-packages \"*\" --output dist/whooptido-asr-subtitles-linux-x64",
+    "smoke:native": "node scripts/smoke-native-host.js",
+    "smoke:upload-only": "node scripts/smoke-upload-only-native-host.js"
+  },
+  "pkg": {
+    "assets": [],
+    "targets": [
+      "node20-macos-arm64",
+      "node20-win-x64",
+      "node20-linux-x64"
+    ]
+  },
+  "dependencies": {
+    "chrome-native-messaging": "^0.2.0"
+  },
+  "devDependencies": {
+    "@yao-pkg/pkg": "^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Whooptido-App/ASR-Subtitles.git"
+  },
+  "license": "MIT",
+  "author": "Whooptido"
+}
